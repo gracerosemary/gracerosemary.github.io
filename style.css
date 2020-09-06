@@ -46,10 +46,20 @@ button:hover {
 #writeHaiku {
     margin-left: auto;
     margin-right: auto;
-    display: inline-block;
+    display: block;
     width: 30%;
     background-color: rgba(149, 197, 153, 0.329);
     color: rgba(8, 8, 8, 0.822);
+}
+
+#instructions {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(140, 190, 144, 0.788);
+    border: none;
+    border-radius: 12px;
+    width: 30%;
 }
 
 textarea {
