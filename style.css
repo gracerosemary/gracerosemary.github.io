@@ -14,16 +14,12 @@ body {
 h1 {
     font-size: 40px;
     font-family: 'EB Garamond', serif;
-    -webkit-text-stroke: .5px;
-    -webkit-text-stroke-color: rgba(72, 110, 75, 0.89);
     color: rgb(0, 0, 0);
 }
 
 p {
     font-size: 20px;
     font-family: 'EB Garamond', serif;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: rgba(72, 110, 75, 0.89);
     color: rgb(0, 0, 0);
 }
 
