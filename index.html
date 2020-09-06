@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>HOTD</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <div id="read">
+        <h1>Haiku of the Day</h1>
+          <p>Thanks for visiting<br />For your Haiku of the day<br />Please read and create</p>
+        </br>
+         <button id="readHaiku" type="button" style="width: 100%" onClick="generateHaiku()">READ</button>
+         <p id="haiku"></p>
+         <p id="author"></p>
+      </div>
+      <p></p>
+      <form id="create">
+        <p>Create your Haiku in the text box below: </p>
+        <textarea id="writeHaiku" cols="30" rows="5" onchange="save()" placeholder="Create your Haiku here!"></textarea>
+      </form>
+      <script src="script.js"></script>
+
+  </body>
+
+  <footer>
+    <p>Created by: Grace C</p>
+  </footer>
+  
+</html>
